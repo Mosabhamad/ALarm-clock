@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.one {
+    background-color: antiquewhite;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#current-time {
+    font-size: 40px;
+}
+
+.create-alarm,
+.alarm-inputs,
+#active-alarm {
+    margin-top: 20px;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+}
+
+.alarm-inputs,
+#alarm-text {
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 18px;
+}
+
+#active-alarm {
+    display: none;
+}
+
+.name {
+    font-size: 24px;
+    text-shadow: 0 0 3px #c1c1c1, 0 0 5px #000000;
+}
